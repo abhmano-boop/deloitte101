@@ -1,0 +1,11 @@
+{
+  "name": "deloitte101",
+  "install": "yarn install --frozen-lockfile --network-timeout 600000",
+  "start": "bash .cursor/start.sh",
+  "ports": [
+    {
+      "name": "excalidraw",
+      "port": 3001
+    }
+  ]
+}
